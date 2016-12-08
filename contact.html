@@ -1,0 +1,121 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	
+	<body>
+	<div id="wrapper">
+		<div class="navbar-fixed-top navbar-inverse">
+                <div class="navbar-static-top navbar-inverse">
+                    <div class="container">
+                        <div class="navbar-brand">
+                            <a id="homebutton" href="home.html">||THE VALVES||</a>
+                        </div>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">Menu</button>
+                         
+                        <div class="collapse navbar-collapse navHeaderCollapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="members.html">Members</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html" id="thispage">Contact Us</a></li>
+                                <a href="https://www.facebook.com/thevalvesofficial" target="_blank">
+                                    <img id="navimg" class="navlogo" src="valvespics/facebooklogo.jpg"/>
+                                </a>
+                            
+                                <a href="https://www.instagram.com/_the_valves_/" target="_blank">
+                                    <img id="navimg" class="navlogo" src="valvespics/instalogo.jpg">
+                                </a>
+                                <a href="https://twitter.com/the_valves"  target="_blank">
+                                    <img id="navimg" class="navlogo"  src="valvespics/twitterlogo.jpg">
+                                </a>
+				            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        
+           
+    <div class="main">
+        <div class="container contactmain">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 class="contacth">Contact Us</h2>
+                <form>
+                    <label>Name:</label><br>
+                    <input type="text" name="name" placeholder="Full Name..."><br>
+                    <label>Age:</label><br>
+                    <select>
+                        <option value="0">Select</option>
+                        <option value="1">>17</option>
+                        <option value="2">18-30</option>
+                        <option value="3">31-50</option>
+                        <option value="4">51-60</option>
+                        <option value="5">61+</option>
+                    </select><br>
+                    <label>Email:</label><br>
+                    <input type="text" name="email" placeholder="example@email.com" size="35"><br>
+                    <label>Message:</label><br>
+                    <textarea></textarea><br>
+                    <br>
+                    <button onclick="contactus()" class="contactbutton">Send Now</button>
+                </form>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 class="contacth">Book Us</h2>
+                <form>
+                    <label>Name:</label><br>
+                    <input type="text" name="name" placeholder="Full Name..."><br>
+                    <label>Company/ Venue:</label><br>
+                    <input type="text" name="venue" placeholder=""><br>
+                    <label>Email or Phone:</label><br>
+                    <input type="text" name="email" placeholder="Email or Phone"><br>
+                    <label>Address:</label><br>
+                    <input type="text" name="address" placeholder="Road Name:" ><br>
+                    <input type="text" name="address" placeholder="Street Name:" ><br>
+                    <input type="text" name="address" placeholder="City:" ><br>
+                    <input type="text" name="address" placeholder="County:" ><br>
+                    <label>Date:</label><br>
+                    <input type="date" name="date"><br>
+                    <label>Details:</label><br>
+                    <textarea></textarea><br>
+                    <br>
+                    <button onclick="contactus()" class="contactbutton">Book Now</button>                  
+                </form>
+            </div>
+            
+        </div> 
+        </div>
+    </div>
+        
+    <div id="footspace">
+    </div>
+        
+    <div class="footer">
+                <div class="container">
+                <div id="copyright"><p>&copy; Robert Brown</p></div>
+            <div><a class="backtotop" href="#">Back to Top</a>
+            <ul class="footerlist">
+                <li id="footerli"><a id="foota" href="members.html">Members</a></li>
+                <li id="footerli"><a id="foota" href="gallery.html">Gallery</a></li>
+                <li id="footerli"><a id="foota" href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            
+    </div>
+        
+    <script>
+        function contactus(){
+            confirm("Please ensure the details you have entered are correct"); 
+        }
+        
+    </script>
+        
+	</body>
+</html>

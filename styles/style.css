@@ -1,0 +1,145 @@
+body{color:#808080;background-color: #000000; font-family: "Helvetica"
+}
+em{color:#ff751a;
+}
+p{font-size: 140%; color:#808080
+}
+h2{text-decoration: underline; margin-left:100; width:auto; text-align: center;
+}
+h3{font-size: 150%; color:#808080;
+}
+#wrapper{height:100%;width:100%;
+}
+
+.navbar-brand{font-size: 300%;color:#808080;font-family:"Debby"; padding-top: 2%;
+} 
+.nav, navbar-nav, navbar-right{font-size: 200%;height:60px;padding-top: .5%;
+}
+#homebutton{list-style-type: none;text-decoration: none;color:#ffffff;
+}
+#homebutton:hover{list-style-type: none;text-decoration: none;color:#ff751a;font-weight:bold;
+}
+#thispage{color:#ff751a;
+}
+#navimg{border:1px solid #808080;position:relative;border-radius: 5px 5px 5px 5px;width:7%;margin:0;
+}
+#navimg:hover{
+    opacity:0.8;
+}
+
+
+.main{color:#808080;
+}
+
+
+#memberheader{max-height:500px;width:100%;margin:0px;
+}
+.profpadding{ padding: 10px;
+}
+#glennprof {border-radius: 25px; width:350px; position:relative;
+}
+#jakeprof  {border-radius: 25px; width:350px; position:relative;
+}
+#aaronprof {border-radius: 25px; width:350px; position:relative;
+} 
+#robprof   {border-radius: 25px; width:350px; position:relative; 
+}
+.memberdesc{text-align: justify;
+}
+
+
+.contactmain{position: relative; top:49px;font-size: 140%  
+}
+select{background-color:#cccaca; height:40px; color:#000000;
+}
+input{height:50px; width:100%; padding:0px; color:#000000; background-color:#cccaca;
+}
+textarea{border:1px solid white; height:150px; width:100%; color:#000000; background-color: #cccaca;
+}
+placeholder{font-size: 110%;
+}
+::-webkit-input-placeholder {
+    color:    #000000;
+}
+:-ms-input-placeholder { 
+   color:    #000000;
+}
+form{padding:5px; border-radius: 20px; width:450; border:2px solid white;
+}
+label{color:#ff751a; font-size: 130%; font-style: oblique;
+}
+.contactbutton{height:40px;width:130px;color:#ffffff;background-color: #ff6520;border-radius: 10px;border: 3px solid white;font-weight: bold;position:relative;left:34%; bottom: 8px;  
+}
+.contactbutton:hover{color:#ff751a;background-color:white;border:3px solid #ff6520;text-decoration: underline;position:relative;left:34%; bottom:8px; position:relative;
+}{
+    color:#000000;
+    
+}
+
+
+#footspace{height:120px;width:100%;background-color: black;
+}
+.footer{padding:10px;color:#808080;font-size:120%;float:left;position:relative;height:auto;width:100%;background-color:#121212;
+}
+#copyright{padding-top: 5px;float:left;padding-left:30px;padding-right:30px;color:#808080;font-size: 70%
+}
+.backtotop{list-style-type: none;padding-left:30px;padding-right:30px;float:left;color:#ff751a;
+}
+.backtotop:visited{
+list-style-type: none;
+}
+#footerli{padding-left:40px;padding-right:40px;list-style-type: circle;display: inline;float:left;position:relative;
+}
+#foota{color:#808080;list-style-type: none;
+}
+#foota:visited{color:#808080;list-style-type: none;
+}
+#foota:hover{color:#ff751a;list-style-type: none;
+}
+
+
+.jumbotron{margin-top:-47px;
+}
+.galleryheader{position:relative;top:50px;background-color: #000000;
+}
+#slider{position:relative;left:15%;width:720px;height:400px; overflow: hidden;
+}
+#slider .slides{display:block;width:6000px;height:420px;margin:0px;padding:0;
+}
+#slider .slide{float:left;list-style-type: none;width:720px;height:400px;
+}
+.albumthumbnail{height:30%;width:35%;padding:10px;
+}
+.albumthumbnail:hover{opacity:0.7;
+}
+.galdesc{margin-top:70px;padding-left;width:50%;height:auto;background-color:#000000;font-size:150%;font-weight:400;font-style: italic;
+}
+.albumdesc{
+}
+#thumbnailimg{height:100%; width:100%;margin:5px;border-radius: 20px;opacity: 0.9;
+}
+#checkoutvids{color:#808080;font-style: italic;font-weight: bold;text-decoration: underline;text-align: center
+}
+.galvideo{top:40px;padding:0px;position:relative;height:250px;width:33%;margin:1px;border-radius:20px;border:1px solid #ff751a
+}
+video, iframe{border-radius:20px;height:100%;width:100%;margin:0px;padding:0px;
+}
+
+
+.fran{cursor:pointer; height:300px;width:400px;margin:40px;margin-left:10px;border-radius: 20px;border:5px solid #717171;
+}
+.onstage{cursor:pointer;height:400px;width:700px;margin:20px;margin-right:10px;border-radius: 20px;border:5px solid #717171;
+}
+#galhomebtn{padding-top:50px;text-decoration: none;color:#ffffff;font-size: 200%;font-weight: bolder;margin-top:20px;
+}
+#goback{display:block;background-color:#2f2f2f;border-radius:10px;width:11%;height:5%;text-align: center;border:3px solid #ffffff;padding-top:4px;  
+}
+.glyphicon{font-size:200%;margin-right:5px;color:#ffffff
+}
+#goback:hover{opacity:0.5;
+}
+#gallink{text-decoration: none;color:#ffffff;
+}
+h4{text-decoration: none;font-size: 270%;color:#808080;text-align: center;font-style: italic 
+}
+
