@@ -4,7 +4,7 @@ em{color:#ff751a;
 }
 p{font-size: 160%; color:#808080;text-align: justify;
 }
-h1{color:#808080;text-align: center;font-weight:300px;font-style: italic;min-width:100px;
+h1{color:#808080;text-align: center;font-weight:300;font-style: italic;min-width:100px;
 }
 h2{margin:auto; width:auto; text-align: center;color:#34a0ff;font-style: italic;
 }
@@ -22,13 +22,13 @@ h3{font-size: 150%; color:#808080;
 }
 #thispage{color:#ff751a;
 }
-#navimg{border:1px solid #808080;position:relative;top:3px;border-radius:5px 5px 5px 5px;width:40px;margin:0;
+.navimg{border:1px solid #808080;position:relative;top:3px;border-radius:5px 5px 5px 5px;width:40px;margin:0;
 }
-#navimg:hover{opacity:0.8;
+.navimg:hover{opacity:0.8;
 }
 #homeheader{position:fixed;width:99%;height:60%;
 }
-.bandDescription{position:relative;top:50%;shape-outside: url(indexprofile.jpg);height:1500px;width:100%;background-color:#ffffff;margin:auto;padding:20px
+.bandDescription{position:absolute;top:70%;height:1500px;width:100%;background-color:#ffffff;margin:auto;padding:20px
 }
 a{color:#000000;
 }
@@ -60,3 +60,5 @@ hr{height:0.3%; background-color: #808080
 }
 .upcoming{margin:0 auto;color:#ff2a03;font-size: 100%;text-align: center
 }
+
+

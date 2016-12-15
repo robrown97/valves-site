@@ -4,7 +4,7 @@ body{color:#808080;background-color: #000000; font-family:"Helvetica"
 }
 img{height:100%;width:100%;float:left;
 }
-h1{font-size: 150%;color:#ffffff;opacity; font-style:italic;
+h1{font-size: 150%;color:#ffffff; font-style:italic;
 }
 .container{font-size: 400%;width:auto; text-align: center;margin:auto;position:relative;
 }
@@ -12,9 +12,9 @@ a{color:#ffffff;
 }
 a:hover{color:#ffffff;text-decoration:none;
 }
-p{width:auto;color:white;
+p{width:auto;color:white;padding-top:5px;
 }
-#indexbox{margin:auto;text-transform:uppercase;background-color: #818181;height:7%;width:25%;opacity: 0.8;border-radius: 10px;
+#indexbox{margin:auto;text-transform:uppercase;background-color: #818181;height:auto;width:25%;opacity: 0.8;border-radius: 10px;
 }
 #indexbox:hover{opacity:1;
 }

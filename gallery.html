@@ -1,7 +1,8 @@
-<DOCTYPE html>
-<html> 
+<!DOCTYPE html>
+<html lang="en"> 
 	<head>
-		<title>Photo Gallery</title>
+        <meta charset="UTF-8">
+		<title>Photo Gallery of The Valves on stage and in session</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -11,10 +12,12 @@
         <script src="sss/sss.min.js"></script>
         <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
         <script>jQuery(function($) {$('.slider').sss();});</script>
+        <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+        <link rel="icon" href="valvespics/icon.png" type="image/png" />
 	</head>
 
 	<body>
-        <div id="wrapper #">
+        <div id="wrapper">
             <div class="navbar-fixed-top navbar-inverse">
                 <div class="navbar-static-top navbar-inverse">
                     <div class="container">
@@ -29,15 +32,15 @@
                                 <li><a href="gallery.html" id="thispage">Gallery</a></li>
                                 <li><a href="contact.html">Contact Us</a></li>
                                 <a href="https://www.facebook.com/thevalvesofficial" target="_blank">
-                                    <img id="navimg" class="navlogo" src="valvespics/facebooklogo.jpg"/>
-                                </a>
+                    <img class="navimg navlogo" src="valvespics/facebooklogo.jpg" alt="fb link"/>
+                    </a>
                             
-                                <a href="https://www.instagram.com/_the_valves_/" target="_blank">
-                                    <img id="navimg" class="navlogo" src="valvespics/instalogo.jpg">
-                                </a>
-                                <a href="https://twitter.com/the_valves"  target="_blank">
-                                    <img id="navimg" class="navlogo"  src="valvespics/twitterlogo.jpg">
-                                </a>
+                    <a href="https://www.instagram.com/_the_valves_/" target="_blank">
+                    <img class="navimg navlogo" src="valvespics/instalogo.jpg" alt="insta link">
+                    </a>
+                    <a href="https://twitter.com/the_valves"  target="_blank">
+                    <img class="navimg navlogo"  src="valvespics/twitterlogo.jpg" alt="twitter link"> 
+                    </a>
 				            </ul>
                         </div>
                     </div> 
@@ -45,11 +48,11 @@
             </div>
         <div class="container">
             <div class="slider">
-                 <img src="sss/images/slide1.jpg" />
-                <img src="sss/images/slide2.jpg" />
-                <img src="sss/images/slide3.jpg" />
-                <img src="sss/images/slide4.jpg" />
-                <img src="sss/images/slide5.jpg" /> 
+                <img src="sss/images/slide1.jpg" alt="slide" />
+                <img src="sss/images/slide2.jpg" alt="slide" />
+                <img src="sss/images/slide3.jpg" alt="slide" />
+                <img src="sss/images/slide4.jpg" alt="slide" />
+                <img src="sss/images/slide5.jpg" alt="slide" /> 
             </div>
         </div>
         
@@ -58,7 +61,7 @@
             <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 albumthumbnail">
-                    <a href="rehearsal.html"><img id="thumbnailimg" src="gallerypics/fran1.jpg"/></a>
+                    <a href="rehearsal.html"><img class="thumbnailimg" src="gallerypics/fran1.jpg" alt="thumbnail" /></a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 galdesc">
                     <p class="albumdesc">Click the thumbnail to browse photos of The Valves rehearsing.</p>
@@ -67,7 +70,7 @@
             
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 albumthumbnail">
-                    <a href="onstage.html"><img id="thumbnailimg" src="gallerypics/onstage1.jpg"/></a>
+                    <a href="onstage.html"><img class="thumbnailimg" src="gallerypics/onstage1.jpg" alt="thumbnail" /></a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 galdesc">
                     <p class="albumdesc">Click the thumbnail to view photos of The Valves live on stage.</p>  
@@ -84,7 +87,7 @@
             
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 galvideo">
-                    <iframe src="https://www.youtube.com/embed/hwD7CF9DnYE" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/hwD7CF9DnYE"  allowfullscreen></iframe>
                 </div> 
                 
                 <div class="col-lg-6 col-md-6 col-sm-12 galvideo">
@@ -103,9 +106,9 @@
                 <div id="copyright"><p>&copy; Robert Brown</p></div>
             <div><a class="backtotop" href="#">Back to Top</a>
             <ul class="footerlist">
-                <li id="footerli"><a id="foota" href="members.html">Members</a></li>
-                <li id="footerli"><a id="foota" href="gallery.html">Gallery</a></li>
-                <li id="footerli"><a id="foota" href="contact.html">Contact</a></li>
+                <li class="footerli"><a class="foota" href="members.html">Members</a></li>
+                <li class="footerli"><a class="foota" href="gallery.html">Gallery</a></li>
+                <li class="footerli"><a class="foota" href="contact.html">Contact</a></li>
             </ul>
             </div>
             </div>
